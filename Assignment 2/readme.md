@@ -4,6 +4,7 @@
 
 ## File Structure
 
+```
 |---config
 | └──settings.py # Application settings configuration
 |---services
@@ -16,6 +17,7 @@
 |---requirements.txt
 |---user_config.yaml # Configuration with user and group details
 └── Readme.md # This file
+```
 
 ## Prerequisites
 
@@ -66,6 +68,7 @@
 
 #### Output
 
+```
 === Summary ===
 Successfully created 2 users
 Failed to create 0 users
@@ -83,10 +86,11 @@ ARN: arn:aws:iam::****\*****:user/Suresh
 Console Access: True
 Programmatic Access: False
 Temporary Password: ****\*\*\*****
+```
 
 #### Screenshots
 
-![AWS User Access Provising Sample Output screenshot](image.png)
+![AWS User Access Provising Sample Output screenshot](https://github.com/user-attachments/assets/360278fc-10c4-41b9-a61e-c30a3505372f)
 
 ## Cleanup
 
