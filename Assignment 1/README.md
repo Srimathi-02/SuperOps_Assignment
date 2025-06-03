@@ -108,3 +108,46 @@ To destroy the infrastructure:
 ```bash
 terraform destroy
 ```
+
+## Example run and output
+
+### Output
+
+```
+Apply complete! Resources: 15 added, 0 changed, 0 destroyed.
+health_check_name = "lb-network-web-health-check"
+instance_group_name = "lb-network-web-servers-group"
+load_balancer_ip = "34.36.129.10"
+load_balancer_url = "http://34.36.129.10"
+nat_gateway_name = "lb-network-nat"
+nat_gateway_region = "us-central1"
+router_name = "lb-network-router"
+subnet_cidr = "10.0.1.0/24"
+subnet_name = "lb-subnet"
+vpc_network_name = "lb-network"
+web_server_internal_ips = [
+  "10.0.1.3",
+  "10.0.1.2",
+]
+web_server_names = [
+  "web-server-1",
+  "web-server-2",
+]
+```
+
+### Screenshots
+
+![Web Server 1 - Traffic](https://github.com/user-attachments/assets/c7d8aa59-760f-4db5-8dcb-6c35dd916279)
+
+# Stopped the Web server 1 
+
+![Stopped Web server 1](https://github.com/user-attachments/assets/7987848f-3e08-4894-b668-f3306f175286)
+
+# Routing the traffic through Web Server 2.
+
+![Web server 2 - Traffic](https://github.com/user-attachments/assets/7cf96ac4-4842-4719-93d4-638f6a44c1cb)
+
+
+
+
+
