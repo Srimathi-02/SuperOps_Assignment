@@ -139,11 +139,11 @@ web_server_names = [
 
 ![Web Server 1 - Traffic](https://github.com/user-attachments/assets/c7d8aa59-760f-4db5-8dcb-6c35dd916279)
 
-# Stopped the Web server 1 
+#### Stopped the Web server 1 
 
 ![Stopped Web server 1](https://github.com/user-attachments/assets/7987848f-3e08-4894-b668-f3306f175286)
 
-# Routing the traffic through Web Server 2.
+#### Routing the traffic through Web Server 2.
 
 ![Web server 2 - Traffic](https://github.com/user-attachments/assets/7cf96ac4-4842-4719-93d4-638f6a44c1cb)
 
