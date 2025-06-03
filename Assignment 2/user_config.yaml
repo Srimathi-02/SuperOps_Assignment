@@ -1,0 +1,28 @@
+groups:
+  - name: Developers
+    path: /engineering/
+    policies:
+      - arn:aws:iam::aws:policy/PowerUserAccess
+  - name: ReadOnlyUsers
+    path: /readonly/
+    policies:
+      - arn:aws:iam::aws:policy/ReadOnlyAccess
+users:
+  - console_access: true
+    department: Engineering
+    force_password_change: true
+    groups:
+      - Developers
+    programmatic_access: true
+    require_mfa: true
+    role: Developer
+    username: Srimathi
+  - console_access: true
+    department: QA
+    force_password_change: true
+    groups:
+      - ReadOnlyUsers
+    programmatic_access: false
+    require_mfa: true
+    role: Tester
+    username: Suresh

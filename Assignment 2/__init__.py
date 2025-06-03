@@ -1,0 +1,1 @@
+"""Initialization module for the AWS User Provisioning application."""

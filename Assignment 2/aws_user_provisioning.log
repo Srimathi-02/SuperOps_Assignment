@@ -1,0 +1,14 @@
+INFO - Found credentials in shared credentials file: ~/.aws/credentials
+INFO - Creating user: Srimathi
+WARNING - User Srimathi already exists
+INFO - Creating user: Suresh
+WARNING - User Suresh already exists
+INFO - Audit log saved to logs\audit_log_20250603_232717.json
+INFO - Found credentials in shared credentials file: ~/.aws/credentials
+INFO - Creating user: Srimathi
+INFO - Added user Srimathi to group Developers
+INFO - Successfully created user Srimathi
+INFO - Creating user: Suresh
+INFO - Added user Suresh to group ReadOnlyUsers
+INFO - Successfully created user Suresh
+INFO - Audit log saved to logs\audit_log_20250603_232952.json

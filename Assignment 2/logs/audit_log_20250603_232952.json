@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-06-03T23:29:51.078099",
+    "action": "create_user",
+    "username": "Srimathi",
+    "success": true,
+    "details": "User created successfully"
+  },
+  {
+    "timestamp": "2025-06-03T23:29:52.666139",
+    "action": "create_user",
+    "username": "Suresh",
+    "success": true,
+    "details": "User created successfully"
+  }
+]
