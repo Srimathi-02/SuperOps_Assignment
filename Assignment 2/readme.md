@@ -66,7 +66,7 @@
 
 ## Example run and output
 
-#### Output
+### Output
 
 ```
 === Summary ===
@@ -88,7 +88,7 @@ Programmatic Access: False
 Temporary Password: ****\*\*\*****
 ```
 
-#### Screenshots
+### Screenshot
 
 ![AWS User Access Provising Sample Output screenshot](https://github.com/user-attachments/assets/360278fc-10c4-41b9-a61e-c30a3505372f)
 
