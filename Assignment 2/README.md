@@ -75,17 +75,17 @@ Failed to create 0 users
 Created 2 groups
 
 User: Srimathi
-ARN: arn:aws:iam::****\*\*****:user/Srimathi
+ARN: arn:aws:iam::*********:user/Srimathi
 Console Access: True
 Programmatic Access: True
-Temporary Password: ******\*******
-Access Key ID: ****\*****
+Temporary Password: *************
+Access Key ID: *********
 
 User: Suresh
-ARN: arn:aws:iam::****\*****:user/Suresh
+ARN: arn:aws:iam::*********:user/Suresh
 Console Access: True
 Programmatic Access: False
-Temporary Password: ****\*\*\*****
+Temporary Password: ***********
 ```
 
 ### Screenshot

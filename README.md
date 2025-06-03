@@ -20,3 +20,4 @@ This project automates the provisioning of AWS IAM users, groups, and policies, 
 - **Audit Logging**: Logs all provisioning activities, including user creation and group assignments, to a log file (aws_user_provisioning.log) and audit logs in JSON format.
 - **Secure Access**: Supports multi-factor authentication (MFA), programmatic access, and console access configurations for users.
 - **Policy Management**: Attaches predefined AWS-managed policies to groups for fine-grained access control.
+
