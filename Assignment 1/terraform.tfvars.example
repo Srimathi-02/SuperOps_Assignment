@@ -1,0 +1,25 @@
+# Copy this file to terraform.tfvars and update with your values
+
+# GCP Project Configuration (Required)
+project_id = "your-gcp-project-id"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# Network Configuration (Optional - defaults provided)
+# network_name  = "lb-network"
+# subnet_name   = "lb-subnet"
+# subnet_cidr   = "10.0.1.0/24"
+
+# Compute Configuration (Optional - defaults provided)
+# machine_type     = "e2-micro"
+# instance_image   = "ubuntu-os-cloud/ubuntu-2004-lts"
+# disk_size        = 10
+# instance_count   = 2
+
+# Load Balancer Configuration (Optional - defaults provided)
+# health_check_path = "/"
+# health_check_port = 80
+
+# Security Configuration (Optional - defaults provided)
+# allowed_source_ranges = ["0.0.0.0/0"]
+# network_tags         = ["web-server"]
