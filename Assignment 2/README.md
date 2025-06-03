@@ -1,6 +1,6 @@
 # AWS User Access Provision
 
-- This project automates the provisioning of AWS IAM users, groups, and policies, ensuring secure and scalable access management.
+This project automates the provisioning of AWS IAM users, groups, and policies, ensuring secure and scalable access management.
 
 ## File Structure
 
