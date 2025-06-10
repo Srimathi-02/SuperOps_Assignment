@@ -35,7 +35,12 @@ This project automates the provisioning of AWS IAM users, groups, and policies, 
 
    - Create and activate the virtual environment:
      - `python -m venv .venv`
-     - `./.venv/scripts/activate.ps1` (or based on your terminal).
+     - Windows Command Prompt
+     - `.venv\Scripts\activate.bat`
+     - Windows PowerShell
+     - `.venv\Scripts\Activate.ps1`
+     - Mac/Linux Terminal
+     - `source .venv/bin/activate`
    - Install dependencies:
      - `pip install -r requirements.txt`
 
